@@ -1,0 +1,257 @@
+  ol, ul, li{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+/*Універсальний селектор*/
+*{
+  padding: 0;
+  margin: 0;
+}
+img {
+	vertical-align: top;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+/*animation*/
+.header .container{
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.header .nav_bar ul{
+  display: flex;
+}
+
+
+
+.header .logo{
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.header .nav-sub-item{
+margin-right: 42px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #1C1C1C;
+margin-top: 22px;
+display: inline-block;
+transition: 0.5s linear;
+}
+.header .last-child{
+  margin-right: 0px;
+}
+.header .demo{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #FFFFFF;
+display: inline-block;
+padding: 11px 34px 15px 34px;
+background: #6F2CFF;
+border-radius: 20px;
+margin-top: 10px;
+margin-right: 38px;
+transition: 0.5s linear;
+}
+.demo:hover{
+color: rgb(0, 140, 255);
+background: #421b97;
+}
+.nav-sub-item:hover{
+ color: gray;
+ text-shadow: 0 0 7px rgba(0, 0, 0, 0.493);
+}
+.log:hover{
+  color: gray;
+  text-decoration: underline;
+}
+
+.header .log{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #1C1C1C;
+margin-top: 21px;
+transition: 0.5s linear;
+}
+.banner{
+  background-image: url("../img/pgbg.jpg");
+  background-size: contain;
+  background-position: 240px -50px;
+  background-color: #f6bed9;
+  background-repeat: no-repeat;
+  padding: 195px 0px;
+}
+.input-email{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    padding: 12px 0;
+    padding-left: 26px;
+    padding-right: 72px;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: linear 0.4s;
+    border: 1px solid #6F2CFF;
+
+}
+.input-email::placeholder{
+  padding-left: 26px;
+  padding-top: 13px;
+}
+ .email-submit{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #FFFFFF;  
+background: #6F2CFF;
+border-radius: 0px 27.5px 27.5px 0px;
+padding: 12px 45px 12px 45px;
+border: 1px solid #6F2CFF;
+margin-left: -4px;
+ }
+.content .p1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.content h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 61px;
+color: #000000;
+}
+.content .h1-text1{
+  color: #6F2DFF;
+  margin-bottom: 35px;
+}
+.content p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+display: block;
+width: 438px;
+}
+.commerce-child{
+  margin-top: 58px;
+}
+
+.h2-text1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000; 
+}
+.p1-text1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.p1-text2{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+text-align: center;
+color: #000000;
+}
+.h3-text1{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+}
+.h3-text2{
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+}
+.p1-text3{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+.h3-text3{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+}
+.p-text4{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+.commerce{
+  padding-top: 96px;
+  padding-bottom: 79px;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h3-text2{
+margin-top: 42px;
+margin-bottom: 16px;
+}
+.p-text2{
+  display: block;
+  width: 314px;
+  text-align: center;
+}
